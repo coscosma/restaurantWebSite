@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmin's Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Restaurant Logo">
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <h1>Welcome to Cosmin's Restaurant</h1>
+        <p>Taste the art of dining       </p>
+    </header>
+
+    <!-- Carousel/Slider -->
+    <div class="carousel">
+        <div class="carousel-slide">
+            <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg
+            " alt="Dish 1">
+        </div>
+      
+    </div>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Our Special Dishes</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">    <img src="https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg" alt="Steak Food">
+            </div>
+            <div class="gallery-item">        <img src="https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg" alt="Chicken">
+
+            </div>
+            <div class="gallery-item">    <img src="https://images.pexels.com/photos/3763847/pexels-photo-3763847.jpeg" alt="Grilled Salmon">
+            </div>
+            <div class="gallery-item">    <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg" alt="Pasta with Tomato and Basil">
+            </div>
+         
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+<section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+<br>
+    <!-- Appetizers Section -->
+    <div class="menu-category" id="appetizers">
+        <h3>Appetizers</h3>
+        <div class="menu-item">
+            <h4>Spring Rolls</h4>
+            <p>Crispy rolls with fresh vegetables, served with a dipping sauce.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Bruschetta</h4>
+            <p>Toasted bread topped with fresh tomatoes, basil, and olive oil.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Stuffed Mushrooms</h4>
+            <p>Mushrooms stuffed with cream cheese, herbs, and spices.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Caprese Salad</h4>
+            <p>Fresh mozzarella, tomatoes, basil, drizzled with balsamic glaze.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Garlic Bread</h4>
+            <p>Toasted bread with garlic butter and a sprinkle of parsley.</p>
+        </div>
+    </div>
+
+    <!-- Main Courses Section -->
+    <div class="menu-category" id="main-courses">
+        <h3>Main Courses</h3>
+        <div class="menu-item">
+            <h4>Grilled Steak</h4>
+            <p>Perfectly grilled steak served with mashed potatoes and veggies.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Chicken Alfredo</h4>
+            <p>Creamy Alfredo sauce with grilled chicken and pasta.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Vegan Tacos</h4>
+            <p>Soft tortillas filled with seasoned veggies and tofu.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Salmon Fillet</h4>
+            <p>Grilled salmon fillet with a citrus glaze and a side of vegetables.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Pasta Primavera</h4>
+            <p>Pasta served with a medley of fresh vegetables and light olive oil sauce.</p>
+        </div>
+    </div>
+
+    <!-- Desserts Section -->
+    <div class="menu-category" id="desserts">
+        <h3>Desserts</h3>
+        <div class="menu-item">
+            <h4>Chocolate Cake</h4>
+            <p>Rich chocolate cake with creamy frosting.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Lemon Sorbet</h4>
+            <p>Refreshing lemon sorbet with a tangy twist.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Fruit Tart</h4>
+            <p>Delicious tart filled with fresh seasonal fruits.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Cheesecake</h4>
+            <p>Classic cheesecake with a rich and creamy texture.</p>
+        </div>
+        <div class="menu-item">
+            <h4>Apple Pie</h4>
+            <p>Homemade apple pie with a flaky crust and cinnamon filling.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Features/Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Guests Say</h2>
+        <div class="testimonial">
+            <p>"An unforgettable dining experience! The flavors were exceptional, and the service was impeccable. 
+                I highly recommend the grilled steak—it's a true masterpiece!"</p>
+            <span>- Andrew Spark</span>
+        </div>
+        <br>
+        <div class="testimonial">
+            <p>"Absolutely loved everything about this restaurant. From the cozy atmosphere to the incredible menu,
+                 every detail was perfect. The seafood platter is a must-try!"</p>
+            <span>- John Smith</span>
+        </div>
+        <br>
+        <div class="testimonial">
+            <p>"A true gem! The food is consistently amazing, and the staff always makes us feel welcome.
+                 The desserts are a perfect end to any meal!"</p>
+            <span>- Jane Doe</span>
+        </div>
+        <br>
+        <div class="testimonial">
+            <p>"Every time we visit, we're blown away by the quality and creativity of the dishes. 
+                A beautiful experience from start to finish, especially the pasta dishes!"</p>
+            <span>- Maria Clark</span>
+        </div>
+        <br>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out for reservations, events, or general inquiries.</p>
+        <p>Email: contact@cosminsrestaurant.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <br>
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a><br>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Cosmin's Restaurant. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
